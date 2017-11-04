@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1848478228751430}
+  m_IsPrefabParent: 1
+--- !u!1 &1848478228751430
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4079688024504178}
+  - component: {fileID: 143103787162428180}
+  - component: {fileID: 114457386906878236}
+  - component: {fileID: 114309663691761950}
+  - component: {fileID: 114519100045815706}
+  - component: {fileID: 114564333454314754}
+  - component: {fileID: 114428305932596832}
+  m_Layer: 9
+  m_Name: PlayerEar
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4079688024504178
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114309663691761950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87c67f35fa496aa45a274a2bcc839801, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114428305932596832
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerId: 0
+  group: 0
+  OwnerShipWasTransfered: 0
+  prefixBackup: -1
+  synchronization: 3
+  onSerializeTransformOption: 3
+  onSerializeRigidBodyOption: 2
+  ownershipTransfer: 0
+  ObservedComponents:
+  - {fileID: 114564333454314754}
+  ObservedComponentsFoldoutOpen: 1
+  viewIdField: 0
+  instantiationId: -1
+  currentMasterID: -1
+  isRuntimeInstantiated: 0
+--- !u!114 &114457386906878236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf72d633c6abe4946b64542246e9fe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - name: FOX
+    prefab: {fileID: 1378240805268930, guid: e84e7d8f36d0ad649a25824991012abf, type: 2}
+    offset: {x: 0, y: 0, z: 0}
+    rotation: {x: 0, y: 0, z: 0}
+--- !u!114 &114519100045815706
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618d7d7d1e95a4444a782ddfa5c1096e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiPrefab: {fileID: 1747424762441100, guid: b66baa8bdbaa4284097f5ca687b3c6b3, type: 2}
+  keepStandTime: 2
+--- !u!114 &114564333454314754
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ae985faf50c2046b6da94a28b77b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxWalkSpeed: 4
+  MaxRunSpeed: 7
+  fallMaxSpeed: 0.5
+  accelerationTime: 3
+  DecelerationWalk: 0.9
+  DecelerationRun: 0.9
+  JumpMinSpeed: 10
+  JunpAccele: 1.1
+  Gravity: 13
+  MaxJumpButtonTime: 0.2
+  HitWallDecelera: 0.5
+  HitCeilingDecelera: 0.5
+  velocity: {x: 0, y: -0.5, z: 0}
+  m_JumpVelocity: 0
+  inputManager: {fileID: 0}
+  PlayerNo: 2
+  m_Type: 2
+--- !u!143 &143103787162428180
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1848478228751430}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 1, z: 0}

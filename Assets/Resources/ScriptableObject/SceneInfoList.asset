@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658b402d9ef5be7448810f30ab4a3c74, type: 3}
+  m_Name: SceneInfoList
+  m_EditorClassIdentifier: 
+  m_sceneInfoList:
+  - m_name: TitleScene
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: RoomScene
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: StageSelectScene
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: GameScene
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: ResultScene
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: Stage1
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: Stage2
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: Stage3
+    m_group: Main
+    m_nextSceneName: 
+  - m_name: tutorial
+    m_group: Main
+    m_nextSceneName: 

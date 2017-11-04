@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: 5055851475d0ad148a59415fa1d97f19
+timeCreated: 1509081659
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group27
+    100002: group28
+    100004: group29
+    100006: group31
+    100008: group32
+    100010: group33
+    100012: group34
+    100014: group35
+    100016: //RootNode
+    100018: pasted__group26
+    100020: pasted__group27
+    100022: pasted__group28
+    100024: pasted__group28 1
+    100026: pasted__group28 2
+    100028: pasted__group29
+    100030: pasted__group31
+    100032: pasted__group32
+    100034: pasted__pasted__group26
+    100036: pasted__pasted__group27
+    100038: pasted__pasted__group27 1
+    100040: pasted__pasted__group27 2
+    100042: pasted__pasted__group28
+    100044: pasted__pasted__group28 1
+    100046: pasted__pasted__group29
+    100048: pasted__pasted__pasted__group26
+    100050: pasted__pasted__pasted__group26 1
+    100052: pasted__pasted__pasted__group26 2
+    100054: pasted__pasted__pasted__group27
+    100056: pasted__pasted__pasted__group27 1
+    100058: pasted__pasted__pasted__group28
+    100060: pasted__pasted__pasted__pasted__group26
+    100062: pasted__pasted__pasted__pasted__group26 1
+    100064: pasted__pasted__pasted__pasted__group27
+    100066: pasted__pasted__pasted__pasted__pasted__group26
+    100068: pCube2
+    100070: woodver10:group8
+    100072: woodver10:woodver4:group7
+    100074: woodver10:woodver4:woodver3:group6
+    100076: woodver10:woodver4:woodver3:woodver2:pCube4
+    100078: woodver11:group8
+    100080: woodver11:woodver4:group7
+    100082: woodver11:woodver4:woodver3:group6
+    100084: woodver11:woodver4:woodver3:woodver2:pCube4
+    100086: woodver12:group8
+    100088: woodver12:woodver4:group7
+    100090: woodver12:woodver4:woodver3:group6
+    100092: woodver12:woodver4:woodver3:woodver2:pCube4
+    100094: woodver4:group8
+    100096: woodver4:woodver4:group7
+    100098: woodver4:woodver4:woodver3:group6
+    100100: woodver4:woodver4:woodver3:woodver2:pCube4
+    100102: woodver5:group8
+    100104: woodver5:woodver4:group7
+    100106: woodver5:woodver4:woodver3:group6
+    100108: woodver5:woodver4:woodver3:woodver2:pCube4
+    100110: woodver6:group8
+    100112: woodver6:woodver4:group7
+    100114: woodver6:woodver4:woodver3:group6
+    100116: woodver6:woodver4:woodver3:woodver2:pCube4
+    100118: woodver8:group8
+    100120: woodver8:woodver4:group7
+    100122: woodver8:woodver4:woodver3:group6
+    100124: woodver8:woodver4:woodver3:woodver2:pCube4
+    100126: woodver9:group8
+    100128: woodver9:woodver4:group7
+    100130: woodver9:woodver4:woodver3:group6
+    100132: woodver9:woodver4:woodver3:woodver2:pCube4
+    400000: group27
+    400002: group28
+    400004: group29
+    400006: group31
+    400008: group32
+    400010: group33
+    400012: group34
+    400014: group35
+    400016: //RootNode
+    400018: pasted__group26
+    400020: pasted__group27
+    400022: pasted__group28
+    400024: pasted__group28 1
+    400026: pasted__group28 2
+    400028: pasted__group29
+    400030: pasted__group31
+    400032: pasted__group32
+    400034: pasted__pasted__group26
+    400036: pasted__pasted__group27
+    400038: pasted__pasted__group27 1
+    400040: pasted__pasted__group27 2
+    400042: pasted__pasted__group28
+    400044: pasted__pasted__group28 1
+    400046: pasted__pasted__group29
+    400048: pasted__pasted__pasted__group26
+    400050: pasted__pasted__pasted__group26 1
+    400052: pasted__pasted__pasted__group26 2
+    400054: pasted__pasted__pasted__group27
+    400056: pasted__pasted__pasted__group27 1
+    400058: pasted__pasted__pasted__group28
+    400060: pasted__pasted__pasted__pasted__group26
+    400062: pasted__pasted__pasted__pasted__group26 1
+    400064: pasted__pasted__pasted__pasted__group27
+    400066: pasted__pasted__pasted__pasted__pasted__group26
+    400068: pCube2
+    400070: woodver10:group8
+    400072: woodver10:woodver4:group7
+    400074: woodver10:woodver4:woodver3:group6
+    400076: woodver10:woodver4:woodver3:woodver2:pCube4
+    400078: woodver11:group8
+    400080: woodver11:woodver4:group7
+    400082: woodver11:woodver4:woodver3:group6
+    400084: woodver11:woodver4:woodver3:woodver2:pCube4
+    400086: woodver12:group8
+    400088: woodver12:woodver4:group7
+    400090: woodver12:woodver4:woodver3:group6
+    400092: woodver12:woodver4:woodver3:woodver2:pCube4
+    400094: woodver4:group8
+    400096: woodver4:woodver4:group7
+    400098: woodver4:woodver4:woodver3:group6
+    400100: woodver4:woodver4:woodver3:woodver2:pCube4
+    400102: woodver5:group8
+    400104: woodver5:woodver4:group7
+    400106: woodver5:woodver4:woodver3:group6
+    400108: woodver5:woodver4:woodver3:woodver2:pCube4
+    400110: woodver6:group8
+    400112: woodver6:woodver4:group7
+    400114: woodver6:woodver4:woodver3:group6
+    400116: woodver6:woodver4:woodver3:woodver2:pCube4
+    400118: woodver8:group8
+    400120: woodver8:woodver4:group7
+    400122: woodver8:woodver4:woodver3:group6
+    400124: woodver8:woodver4:woodver3:woodver2:pCube4
+    400126: woodver9:group8
+    400128: woodver9:woodver4:group7
+    400130: woodver9:woodver4:woodver3:group6
+    400132: woodver9:woodver4:woodver3:woodver2:pCube4
+    2300000: pCube2
+    2300002: woodver10:woodver4:woodver3:woodver2:pCube4
+    2300004: woodver11:woodver4:woodver3:woodver2:pCube4
+    2300006: woodver12:woodver4:woodver3:woodver2:pCube4
+    2300008: woodver4:woodver4:woodver3:woodver2:pCube4
+    2300010: woodver5:woodver4:woodver3:woodver2:pCube4
+    2300012: woodver6:woodver4:woodver3:woodver2:pCube4
+    2300014: woodver8:woodver4:woodver3:woodver2:pCube4
+    2300016: woodver9:woodver4:woodver3:woodver2:pCube4
+    3300000: pCube2
+    3300002: woodver10:woodver4:woodver3:woodver2:pCube4
+    3300004: woodver11:woodver4:woodver3:woodver2:pCube4
+    3300006: woodver12:woodver4:woodver3:woodver2:pCube4
+    3300008: woodver4:woodver4:woodver3:woodver2:pCube4
+    3300010: woodver5:woodver4:woodver3:woodver2:pCube4
+    3300012: woodver6:woodver4:woodver3:woodver2:pCube4
+    3300014: woodver8:woodver4:woodver3:woodver2:pCube4
+    3300016: woodver9:woodver4:woodver3:woodver2:pCube4
+    4300000: pCube2
+    4300002: woodver4:woodver4:woodver3:woodver2:pCube4
+    4300004: woodver5:woodver4:woodver3:woodver2:pCube4
+    4300006: woodver6:woodver4:woodver3:woodver2:pCube4
+    4300008: woodver8:woodver4:woodver3:woodver2:pCube4
+    4300010: woodver9:woodver4:woodver3:woodver2:pCube4
+    4300012: woodver10:woodver4:woodver3:woodver2:pCube4
+    4300014: woodver11:woodver4:woodver3:woodver2:pCube4
+    4300016: woodver12:woodver4:woodver3:woodver2:pCube4
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

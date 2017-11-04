@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1072541664569774}
+  m_IsPrefabParent: 1
+--- !u!1 &1072541664569774
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4068896709973238}
+  - component: {fileID: 143945403938829018}
+  - component: {fileID: 114377099612408392}
+  - component: {fileID: 114500456416632102}
+  - component: {fileID: 114838425825675016}
+  m_Layer: 9
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4068896709973238
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072541664569774}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -6.73, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114377099612408392
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072541664569774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8e8a069aab77147a4c88af97246acb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxWalkSpeed: 0.3
+  MaxRunSpeed: 0.5
+  fallMaxSpeed: 0.5
+  accelerationTime: 3
+  DecelerationWalk: 0.8
+  DecelerationRun: 0.5
+  JumpMinSpeed: 0.55
+  JunpAccele: 1.1
+  Gravity: 1.95
+  MaxJumpButtonTime: 0
+  HitWallDecelera: 0.5
+  HitCeilingDecelera: 0.5
+  velocity: {x: 0, y: 5.5, z: 0}
+  m_JumpVelocity: 0
+  ivyManager: {fileID: 0}
+  inputManager: {fileID: 0}
+  PlayerNo: 1
+  m_Type: 0
+--- !u!114 &114500456416632102
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072541664569774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 618d7d7d1e95a4444a782ddfa5c1096e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: "\u7530\u4E2D"
+  uiPrefab: {fileID: 1271387589136382, guid: 3420a27cfc3e9fe4c89d8fdf5ee2a8ef, type: 2}
+  keepStandTime: 2
+--- !u!114 &114838425825675016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072541664569774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf72d633c6abe4946b64542246e9fe9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+  - name: FOX
+    prefab: {fileID: 1658633255552030, guid: 72e9c3e8774447f429bbfcc8bb426302, type: 2}
+    offset: {x: 0, y: 0, z: -5}
+    rotation: {x: 0, y: 0, z: 0}
+--- !u!143 &143945403938829018
+CharacterController:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072541664569774}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.0001
+  m_MinMoveDistance: 0
+  m_Center: {x: 0, y: 1, z: 0}
