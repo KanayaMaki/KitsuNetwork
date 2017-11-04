@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/StageSelectScene.unity
     guid: 2cefa10e74f7b0b48b9d399a2070de8b
   - enabled: 1
-    path: Assets/Scenes/TutorialScene/tutorial.unity
+    path: Assets/Scenes/tutorial.unity
     guid: a47be0d542ef0224ebd6134ffc5d374e
   - enabled: 1
     path: Assets/Scenes/Stage1.unity
@@ -30,5 +30,5 @@ EditorBuildSettings:
     path: Assets/Scenes/Stage3.unity
     guid: fcdc7463051059f4cac8db54edeea07b
   - enabled: 0
-    path: Assets/PrivateScene/osuka/test1.unity
+    path: Assets/Scenes/Private/osuka/test1.unity
     guid: caf0f6924c603fc47bcc896a6d551c71
